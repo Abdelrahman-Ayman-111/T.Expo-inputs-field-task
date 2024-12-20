@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.Expo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    
+
+
+
+    <div class="login-section">
+        <form action="">
+           
+              <h1>Login</h1>
+
+              <div class="input-box">
+                   <input id="username" type="text" placeholder="Username" required>
+                   <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="input-box">
+                   <input id="password" type="password" placeholder="Password" required pattern="^(?=.*[a-zA-Z])(?=.*\d).+$" title="It must contain letters and numbers">
+                   <i class="fa-solid fa-lock"></i>
+              </div>
+
+              <button id="submit" type="submit">Login</button>
+
+              <div class="Register">
+                   <p>Don't have an account? <a href="#">Register</a></p>
+              </div>
+         
+        </form>
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

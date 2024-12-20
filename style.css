@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(wallpaperflare.com_wallpaper\ \(3\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-section{
+    background-color: transparent;
+    width: 550px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid #bfa7a749;
+    color: #fff;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.login-section h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.login-section .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.login-section input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    border: 2px solid #bfa7a76a;
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.login-section input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-section i{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #333;
+    background-color: #fff;
+}
+
+.login-section .Register{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    margin: 20px 0 15px;
+}
+
+.login-section .Register a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.login-section .Register a:hover{
+    text-decoration: underline;
+}
